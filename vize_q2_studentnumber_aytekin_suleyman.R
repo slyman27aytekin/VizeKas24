@@ -49,5 +49,8 @@ paste("Test 2.1:", Test_2_1)
 Test_2_2 <- is.function(spotify_search_artist)
 paste("Test 2.2:", Test_2_2)
 
+output <- spotify_search_artist("Any Artist Name")
+Test_2_3 <- is.list(output)
+paste("Test 2.3:", Test_2_3)
 
 
