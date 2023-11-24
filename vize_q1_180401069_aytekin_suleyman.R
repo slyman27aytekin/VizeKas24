@@ -40,4 +40,23 @@ paste("Test 1.2:", Test_1_2)
 output <- spotify_token()
 Test_1_3 <- is.list(output)
 paste("Test 1.3:", Test_1_3)
+# Test 1.4
+Test_1_4 <- length(output) == 2
+
+# Test 1.5
+Test_1_5 <- names(output)[1] == "status_code"
+
+# Test 1.6
+Test_1_6 <- class(output$status_code) == "numeric"
+
+# Test 1.7
+Test_1_7 <- output$status_code == 200
+
+paste("Test 1.4:", Test_1_4)
+paste("Test 1.5:", Test_1_5)
+paste("Test 1.6:", Test_1_6)
+paste("Test 1.7:", Test_1_7)
+
+
+
 
