@@ -13,7 +13,7 @@ my_artists <- data.frame(artist = c(sevilen_sanatcilar, sevilmeyen_sanatcilar),
 
 my_artists_combined <- cbind(sevilen = sevilen_sanatci_id, sevilmeyen = sevilmeyen_sanatci_id)
 
-# Eşleşen ID'leri bulma
+#
 matching_ids <- apply(my_artists_combined, 1, function(row) {
   identical(row["sevilen"], row["sevilmeyen"])
 })
