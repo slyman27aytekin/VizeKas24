@@ -54,3 +54,7 @@ Test_2_3 <- is.list(output)
 paste("Test 2.3:", Test_2_3)
 
 
+# Test 2.4
+Test_2_4 <- length(output) == 2
+paste("Test 2.4:", Test_2_4)
+
