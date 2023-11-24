@@ -41,3 +41,6 @@ spotify_search_artist <- function(artist_name) {
   
   return(result)
 }
+# Test 2.1
+Test_2_1 <- exists("spotify_search_artist", envir = .GlobalEnv)
+paste("Test 2.1:", Test_2_1)
