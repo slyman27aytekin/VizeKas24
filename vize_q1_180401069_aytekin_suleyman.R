@@ -30,3 +30,14 @@ spotify_token <- function() {
 Test_1_1 <- exists("spotify_token", envir = .GlobalEnv)
 paste("Test 1.1:", Test_1_1)
 
+
+# Test 1.2
+Test_1_2 <- is.function(spotify_token)
+paste("Test 1.2:", Test_1_2)
+
+
+# Test 1.3
+output <- spotify_token()
+Test_1_3 <- is.list(output)
+paste("Test 1.3:", Test_1_3)
+
