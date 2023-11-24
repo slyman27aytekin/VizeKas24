@@ -66,7 +66,7 @@ paste("Test 2.5:", Test_2_5)
 Test_2_6 <- class(output$status_code) == "numeric"
 paste("Test 2.6:", Test_2_6)
 
-Test 2.7
+# Test 2.7"
 Test_2_7 <- output$status_code == 200
 paste("Test 2.7:", Test_2_7)
 
