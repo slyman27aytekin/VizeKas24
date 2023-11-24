@@ -87,3 +87,7 @@ paste("Test 2.10:", Test_2_10)
 # Test 2.11
 Test_2_11 <- all(colnames(output$search_results) %in% c("artist", "id"))
 paste("Test 2.11:", Test_2_11)
+
+# Test 2.12
+Test_2_12 <- output$search_results[1, "id"] == "22WZ7M8sxp5THdruNY3gXt"
+paste("Test 2.12:", Test_2_12)
