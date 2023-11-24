@@ -34,3 +34,7 @@ paste("Test 3.1:", Test_3_1)
 # Test 3.2
 Test_3_2 <- class(my_artists) == "data.frame"
 paste("Test 3.2:", Test_3_2)
+
+# Test 3.3
+Test_3_3 <- ncol(my_artists) == 2
+paste("Test 3.3:", Test_3_3)
