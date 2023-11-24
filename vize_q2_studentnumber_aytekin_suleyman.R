@@ -78,3 +78,7 @@ paste("Test 2.8:", Test_2_8)
 # Test 2.9
 Test_2_9 <- class(output$search_results) == "data.frame"
 paste("Test 2.9:", Test_2_9)
+
+# Test 2.10
+Test_2_10 <- ncol(output$search_results) == 2
+paste("Test 2.10:", Test_2_10)
