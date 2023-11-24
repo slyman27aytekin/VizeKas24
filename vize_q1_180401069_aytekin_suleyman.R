@@ -57,6 +57,24 @@ paste("Test 1.5:", Test_1_5)
 paste("Test 1.6:", Test_1_6)
 paste("Test 1.7:", Test_1_7)
 
+# Test 1.8
+Test_1_8 <- names(output)[2] == "token"
+
+# Test 1.9
+Test_1_9 <- class(output$token) == "character"
+
+# Test 1.10
+Test_1_10 <- substr(output$token, 1, 7) == "Bearer "
+
+# Test 1.11
+Test_1_11 <- nchar(output$token) == 122
+
+# Test sonuçlarını yazdırma
+
+paste("Test 1.8:", Test_1_8)
+paste("Test 1.9:", Test_1_9)
+paste("Test 1.10:", Test_1_10)
+paste("Test 1.11:", Test_1_11)
 
 
 
