@@ -38,3 +38,7 @@ paste("Test 3.2:", Test_3_2)
 # Test 3.3
 Test_3_3 <- ncol(my_artists) == 2
 paste("Test 3.3:", Test_3_3)
+
+# Test 3.4
+Test_3_4 <- all(colnames(my_artists) %in% c("artist", "id"))
+paste("Test 3.4:", Test_3_4)
