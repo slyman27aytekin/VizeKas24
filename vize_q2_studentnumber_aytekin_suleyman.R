@@ -58,3 +58,7 @@ paste("Test 2.3:", Test_2_3)
 Test_2_4 <- length(output) == 2
 paste("Test 2.4:", Test_2_4)
 
+# Test 2.5
+Test_2_5 <- names(output)[1] == "status_code"
+paste("Test 2.5:", Test_2_5)
+
