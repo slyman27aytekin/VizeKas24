@@ -70,3 +70,6 @@ paste("Test 2.6:", Test_2_6)
 Test_2_7 <- output$status_code == 200
 paste("Test 2.7:", Test_2_7)
 
+# Test 2.8
+Test_2_8 <- names(output)[2] == "search_results"
+paste("Test 2.8:", Test_2_8)
