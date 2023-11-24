@@ -31,3 +31,6 @@ print(non_matching_artists)
 Test_3_1 <- exists("my_artists", envir = .GlobalEnv)
 paste("Test 3.1:", Test_3_1)
 
+# Test 3.2
+Test_3_2 <- class(my_artists) == "data.frame"
+paste("Test 3.2:", Test_3_2)
