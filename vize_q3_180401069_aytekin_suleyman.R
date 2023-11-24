@@ -26,3 +26,8 @@ print("Eşleşen Sanatçılar:")
 print(matching_artists)
 print("Eşleşmeyen Sanatçılar:")
 print(non_matching_artists)
+
+# Test 3.1
+Test_3_1 <- exists("my_artists", envir = .GlobalEnv)
+paste("Test 3.1:", Test_3_1)
+
